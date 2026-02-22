@@ -1,0 +1,479 @@
+[
+  {
+    "id": "orion",
+    "name": "Orion",
+    "emoji": "🎯",
+    "category": "productivity",
+    "description": "Task coordinator and project manager",
+    "soul_md": "agents/productivity/orion/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/project-manager-soul-md"
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "emoji": "📊",
+    "category": "productivity",
+    "description": "Analytics dashboard agent (Mixpanel, Stripe, GA4)",
+    "soul_md": "agents/productivity/metrics/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "standup",
+    "name": "Standup",
+    "emoji": "🧍",
+    "category": "productivity",
+    "description": "Daily standup collector and team summarizer",
+    "soul_md": "agents/productivity/daily-standup/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "inbox",
+    "name": "Inbox",
+    "emoji": "📧",
+    "category": "productivity",
+    "description": "Email triage, response drafting, daily digest",
+    "soul_md": "agents/productivity/inbox-zero/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "minutes",
+    "name": "Minutes",
+    "emoji": "📝",
+    "category": "productivity",
+    "description": "Meeting summarizer and action item tracker",
+    "soul_md": "agents/productivity/meeting-notes/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "lens",
+    "name": "Lens",
+    "emoji": "🔎",
+    "category": "development",
+    "description": "PR review, security scanning, quality assessment",
+    "soul_md": "agents/development/code-reviewer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/code-reviewer-soul-md"
+  },
+  {
+    "id": "scribe",
+    "name": "Scribe",
+    "emoji": "📖",
+    "category": "development",
+    "description": "README, API docs, and code documentation generator",
+    "soul_md": "agents/development/docs-writer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/technical-writer-soul-md"
+  },
+  {
+    "id": "trace",
+    "name": "Trace",
+    "emoji": "🐛",
+    "category": "development",
+    "description": "Error analysis, root cause investigation, debugging",
+    "soul_md": "agents/development/bug-hunter/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "probe",
+    "name": "Probe",
+    "emoji": "🧪",
+    "category": "development",
+    "description": "API endpoint testing, health checks, performance",
+    "soul_md": "agents/development/api-tester/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "log",
+    "name": "Log",
+    "emoji": "📋",
+    "category": "development",
+    "description": "Auto-changelog from git commits, release notes",
+    "soul_md": "agents/development/changelog/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "emoji": "✍️",
+    "category": "marketing",
+    "description": "Content writer for blogs, social, emails",
+    "soul_md": "agents/marketing/echo/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/content-writer-soul-md"
+  },
+  {
+    "id": "buzz",
+    "name": "Buzz",
+    "emoji": "📱",
+    "category": "marketing",
+    "description": "Social media manager for Twitter, LinkedIn, threads",
+    "soul_md": "agents/marketing/social-media/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/social-media-manager-soul-md"
+  },
+  {
+    "id": "rank",
+    "name": "Rank",
+    "emoji": "🔍",
+    "category": "marketing",
+    "description": "SEO content writer with keyword research from GSC",
+    "soul_md": "agents/marketing/seo-writer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/seo-specialist-soul-md"
+  },
+  {
+    "id": "digest",
+    "name": "Digest",
+    "emoji": "📬",
+    "category": "marketing",
+    "description": "Weekly newsletter curator and email writer",
+    "soul_md": "agents/marketing/newsletter/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "scout",
+    "name": "Scout",
+    "emoji": "🔭",
+    "category": "marketing",
+    "description": "Competitor monitoring, pricing intel, market analysis",
+    "soul_md": "agents/marketing/competitor-watch/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "radar",
+    "name": "Radar",
+    "emoji": "📊",
+    "category": "business",
+    "description": "Data analyst and insights generator",
+    "soul_md": "agents/business/radar/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/data-analyst-soul-md"
+  },
+  {
+    "id": "compass",
+    "name": "Compass",
+    "emoji": "🎧",
+    "category": "business",
+    "description": "Support ticket triage, response drafting, escalation",
+    "soul_md": "agents/business/customer-support/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/customer-support-soul-md"
+  },
+  {
+    "id": "pipeline",
+    "name": "Pipeline",
+    "emoji": "💼",
+    "category": "business",
+    "description": "Lead scoring, outreach drafting, pipeline reports",
+    "soul_md": "agents/business/sales-assistant/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/sales-representative-soul-md"
+  },
+  {
+    "id": "ledger",
+    "name": "Ledger",
+    "emoji": "💰",
+    "category": "business",
+    "description": "Payment monitoring, invoice tracking, MRR reports",
+    "soul_md": "agents/business/invoice-tracker/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "emoji": "🔮",
+    "category": "business",
+    "description": "Churn risk scoring, retention actions, re-engagement",
+    "soul_md": "agents/business/churn-predictor/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "emoji": "📅",
+    "category": "personal",
+    "description": "Daily schedule optimizer, morning plans, evening reviews",
+    "soul_md": "agents/personal/daily-planner/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "scroll",
+    "name": "Scroll",
+    "emoji": "📚",
+    "category": "personal",
+    "description": "Article summarizer, weekly reading digest, Notion sync",
+    "soul_md": "agents/personal/reading-digest/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "emoji": "💪",
+    "category": "personal",
+    "description": "Workout planner, nutrition tracker, progress reports",
+    "soul_md": "agents/personal/fitness-coach/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent/fitness-coach-soul-md"
+  },
+  {
+    "id": "incident-responder",
+    "name": "Incident Responder",
+    "emoji": "🚨",
+    "category": "devops",
+    "description": "Monitors alerts, triages incidents, coordinates response",
+    "soul_md": "agents/devops/incident-responder/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "deploy-guardian",
+    "name": "Deploy Guardian",
+    "emoji": "🚀",
+    "category": "devops",
+    "description": "Watches CI/CD pipelines, reports deployment status",
+    "soul_md": "agents/devops/deploy-guardian/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "infra-monitor",
+    "name": "Infra Monitor",
+    "emoji": "🖥️",
+    "category": "devops",
+    "description": "Tracks server health, disk, CPU, memory usage",
+    "soul_md": "agents/devops/infra-monitor/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "log-analyzer",
+    "name": "Log Analyzer",
+    "emoji": "📜",
+    "category": "devops",
+    "description": "Parses logs, finds patterns, alerts on anomalies",
+    "soul_md": "agents/devops/log-analyzer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "cost-optimizer",
+    "name": "Cost Optimizer",
+    "emoji": "💸",
+    "category": "devops",
+    "description": "Monitors cloud spend, suggests savings",
+    "soul_md": "agents/devops/cost-optimizer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "expense-tracker",
+    "name": "Expense Tracker",
+    "emoji": "🧾",
+    "category": "finance",
+    "description": "Categorizes expenses, tracks budgets, sends alerts",
+    "soul_md": "agents/finance/expense-tracker/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "invoice-manager",
+    "name": "Invoice Manager",
+    "emoji": "🧮",
+    "category": "finance",
+    "description": "Creates, tracks, and follows up on invoices",
+    "soul_md": "agents/finance/invoice-manager/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "revenue-analyst",
+    "name": "Revenue Analyst",
+    "emoji": "📈",
+    "category": "finance",
+    "description": "Analyzes revenue streams, MRR, churn, forecasts",
+    "soul_md": "agents/finance/revenue-analyst/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "tax-preparer",
+    "name": "Tax Preparer",
+    "emoji": "🏦",
+    "category": "finance",
+    "description": "Organizes receipts, calculates deductions, prepares summaries",
+    "soul_md": "agents/finance/tax-preparer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "tutor",
+    "name": "Tutor",
+    "emoji": "🎓",
+    "category": "education",
+    "description": "Explains concepts, creates practice problems, adapts to level",
+    "soul_md": "agents/education/tutor/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "quiz-maker",
+    "name": "Quiz Maker",
+    "emoji": "❓",
+    "category": "education",
+    "description": "Generates quizzes from content, tracks scores",
+    "soul_md": "agents/education/quiz-maker/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "study-planner",
+    "name": "Study Planner",
+    "emoji": "📖",
+    "category": "education",
+    "description": "Creates study schedules, sends reminders, tracks progress",
+    "soul_md": "agents/education/study-planner/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "research-assistant",
+    "name": "Research Assistant",
+    "emoji": "🔬",
+    "category": "education",
+    "description": "Finds papers, summarizes research, manages citations",
+    "soul_md": "agents/education/research-assistant/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "wellness-coach",
+    "name": "Wellness Coach",
+    "emoji": "🧘",
+    "category": "healthcare",
+    "description": "Daily check-ins, habit tracking, mental health tips",
+    "soul_md": "agents/healthcare/wellness-coach/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "meal-planner",
+    "name": "Meal Planner",
+    "emoji": "🥗",
+    "category": "healthcare",
+    "description": "Creates meal plans, tracks nutrition, generates shopping lists",
+    "soul_md": "agents/healthcare/meal-planner/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "workout-tracker",
+    "name": "Workout Tracker",
+    "emoji": "🏋️",
+    "category": "healthcare",
+    "description": "Designs workout plans, tracks progress, adjusts intensity",
+    "soul_md": "agents/healthcare/workout-tracker/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "contract-reviewer",
+    "name": "Contract Reviewer",
+    "emoji": "📜",
+    "category": "legal",
+    "description": "Reviews contracts, flags risky clauses, suggests edits",
+    "soul_md": "agents/legal/contract-reviewer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "compliance-checker",
+    "name": "Compliance Checker",
+    "emoji": "✅",
+    "category": "legal",
+    "description": "Monitors compliance requirements, tracks deadlines",
+    "soul_md": "agents/legal/compliance-checker/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "policy-writer",
+    "name": "Policy Writer",
+    "emoji": "📋",
+    "category": "legal",
+    "description": "Drafts internal policies, terms of service, privacy policies",
+    "soul_md": "agents/legal/policy-writer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "recruiter",
+    "name": "Recruiter",
+    "emoji": "🤝",
+    "category": "hr",
+    "description": "Screens resumes, schedules interviews, tracks candidates",
+    "soul_md": "agents/hr/recruiter/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "onboarding",
+    "name": "Onboarding",
+    "emoji": "🎒",
+    "category": "hr",
+    "description": "Guides new hires through setup, answers questions",
+    "soul_md": "agents/hr/onboarding/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "performance-reviewer",
+    "name": "Performance Reviewer",
+    "emoji": "📊",
+    "category": "hr",
+    "description": "Collects feedback, generates review summaries",
+    "soul_md": "agents/hr/performance-reviewer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "brand-designer",
+    "name": "Brand Designer",
+    "emoji": "🎨",
+    "category": "creative",
+    "description": "Creates brand guidelines, color palettes, messaging",
+    "soul_md": "agents/creative/brand-designer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "video-scripter",
+    "name": "Video Scripter",
+    "emoji": "🎬",
+    "category": "creative",
+    "description": "Writes video scripts, outlines, and shot lists",
+    "soul_md": "agents/creative/video-scripter/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "podcast-producer",
+    "name": "Podcast Producer",
+    "emoji": "🎙️",
+    "category": "creative",
+    "description": "Plans episodes, writes show notes, manages guests",
+    "soul_md": "agents/creative/podcast-producer/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "ux-researcher",
+    "name": "UX Researcher",
+    "emoji": "🧑‍💻",
+    "category": "creative",
+    "description": "Conducts user surveys, analyzes feedback, writes reports",
+    "soul_md": "agents/creative/ux-researcher/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "vuln-scanner",
+    "name": "Vuln Scanner",
+    "emoji": "🛡️",
+    "category": "security",
+    "description": "Scans for vulnerabilities, prioritizes fixes",
+    "soul_md": "agents/security/vuln-scanner/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "access-auditor",
+    "name": "Access Auditor",
+    "emoji": "🔐",
+    "category": "security",
+    "description": "Reviews permissions, flags excessive access",
+    "soul_md": "agents/security/access-auditor/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "threat-monitor",
+    "name": "Threat Monitor",
+    "emoji": "👁️",
+    "category": "security",
+    "description": "Monitors threat feeds, alerts on relevant threats",
+    "soul_md": "agents/security/threat-monitor/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  },
+  {
+    "id": "incident-logger",
+    "name": "Incident Logger",
+    "emoji": "📓",
+    "category": "security",
+    "description": "Documents security incidents, tracks resolution",
+    "soul_md": "agents/security/incident-logger/SOUL.md",
+    "deploy_url": "https://crewclaw.com/create-agent"
+  }
+]
