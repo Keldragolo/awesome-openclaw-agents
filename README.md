@@ -22,6 +22,14 @@ Pick a role. Customize the config. Get a full deploy package. No terminal requir
 
 </div>
 
+<div align="center">
+
+📬 **Get weekly agent templates & tips** — new templates, deployment guides, and community highlights every Tuesday.
+
+**[Subscribe to the newsletter →](https://docs.google.com/forms/d/e/1FAIpQLSeIqBjV1LXnR2qQqGSGa-48rAveAmpSKVqlzLqDK2d4D4aVWg/viewform)**
+
+</div>
+
 ---
 
 ## Contents
