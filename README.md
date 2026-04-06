@@ -4,20 +4,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-192-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-199-blueviolet)](agents/)
 [![Works with Ollama Cloud](https://img.shields.io/badge/Ollama_Cloud-Ready-00C853?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48L3N2Zz4=)](https://ollama.com)
 
-> A curated collection of **192 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **199 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20192%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20199%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
 
 ### Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 192 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
+**[Browse all 199 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
 
@@ -35,7 +35,7 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (192 agents across 24 categories)
+- [Agent Templates](#agent-templates) (199 agents across 24 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
@@ -129,6 +129,9 @@ Growing your audience on autopilot.
 | [🎥 UGC Video](agents/marketing/ugc-video/) | AI influencer-style video content | When you need UGC-style video scripts and production plans | [View](agents/marketing/ugc-video/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
 | [📱 Multi-Account Social](agents/marketing/multi-account-social/) | 10+ account management, scheduling | When you manage multiple brand accounts across platforms | [View](agents/marketing/multi-account-social/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=social-media-manager) |
 | [🎬 Multimedia Pipeline](agents/marketing/multimedia-content-pipeline/) | Article + video + music from one brief | When you want a full content package (blog, video, audio) from a single topic — requires OpenClaw v2026.4.5+ | [View](agents/marketing/multimedia-content-pipeline/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [🎵 TikTok Video Creator](agents/marketing/tiktok-video-creator/) | TikTok scripts, clips, trending sounds | When you need TikTok content with hooks, hashtags, and algorithm optimization — requires OpenClaw v2026.4.5+ | [View](agents/marketing/tiktok-video-creator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [📸 Instagram Reels Creator](agents/marketing/instagram-reels-creator/) | Reels scripts, clips, Explore optimization | When you need polished Reels with aesthetic direction and hashtag strategies — requires OpenClaw v2026.4.5+ | [View](agents/marketing/instagram-reels-creator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [▶️ YouTube Shorts Creator](agents/marketing/youtube-shorts-creator/) | Shorts scripts, clips, SEO metadata | When you need Shorts optimized for YouTube search with titles, tags, and descriptions — requires OpenClaw v2026.4.5+ | [View](agents/marketing/youtube-shorts-creator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
 
 > **Need a Content Writer or SEO agent?** [Deploy with CrewClaw →](https://crewclaw.com/create-agent?role=content-writer)
 

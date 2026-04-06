@@ -1,5 +1,5 @@
 {
-  "total": 196,
+  "total": 199,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1359,6 +1359,30 @@
       "name": "Studio",
       "role": "Multimedia Content Pipeline",
       "path": "agents/marketing/multimedia-content-pipeline/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "tiktok-video-creator",
+      "category": "marketing",
+      "name": "TikTik",
+      "role": "TikTok Video Creator",
+      "path": "agents/marketing/tiktok-video-creator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "instagram-reels-creator",
+      "category": "marketing",
+      "name": "Reely",
+      "role": "Instagram Reels Creator",
+      "path": "agents/marketing/instagram-reels-creator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "youtube-shorts-creator",
+      "category": "marketing",
+      "name": "Shorty",
+      "role": "YouTube Shorts Creator",
+      "path": "agents/marketing/youtube-shorts-creator/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
