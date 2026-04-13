@@ -51,6 +51,9 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 - [Security](#security)
 - [Tutorials & Guides](#tutorials--guides)
 - [Cost Optimization & Multi-Provider](#-cost-optimization--multi-provider)
+- [Model Configs](#model-configs) `NEW` — drop-in GLM-5.1, Minimax M2.7, GPT-5.4, advisor hybrid
+- [Memory Wiki](#memory-wiki) `NEW` — Karpathy-style pre-compiled agent memory
+- [Troubleshooting](TROUBLESHOOTING.md) `NEW` — known issues, regressions, recovery
 - [Submit Your Agent](#submit-your-agent)
 - [Community](#community)
 
@@ -724,6 +727,35 @@ openclaw gateway restart
 | Ollama Local | Free | Free | $0 |
 
 > 📖 **Guides:** [Multi-Provider Strategy](https://crewclaw.com/blog/anthropic-openclaw-multi-provider-agents) · [Reduce Token Usage](https://crewclaw.com/blog/reduce-openclaw-token-usage) · [API Pricing Explained](https://crewclaw.com/blog/openclaw-api-pricing-2026) · [Ollama Cloud Switch](https://crewclaw.com/blog/ollama-cloud-openclaw-switch)
+
+---
+
+## Model Configs
+
+Drop-in OpenClaw configs for migrating off Claude. Each bundle contains a `README.md` with migration notes, a working `SOUL.md`, and an `.env.example`.
+
+| Bundle | When to use | Notes |
+|--------|-------------|-------|
+| [configs/glm-5.1](configs/glm-5.1/) | Community-reported closest Opus 4.6 alternative | Strong tool-calling, stricter JSON mode |
+| [configs/minimax-m2.7](configs/minimax-m2.7/) | Agentic SWE workloads | 229B params · SWE-Pro 56.22% · check license |
+| [configs/gpt-5.4](configs/gpt-5.4/) | Already on ChatGPT/OpenAI billing | Use `thinking=high + fastmode=true` |
+| [configs/advisor-hybrid](configs/advisor-hybrid/) | High-complexity + cost-sensitive | Opus 4.6 advises, cheap model executes |
+| [configs/ollama](configs/ollama/) | Fully local, zero API cost | Gemma 4 / Qwen 3 / DeepSeek |
+
+> See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for known model-specific gotchas.
+
+---
+
+## Memory Wiki
+
+Pre-compiled markdown memory for OpenClaw agents. Inspired by Karpathy's LLM Wiki pattern and the "your harness, your memory" discussion. Community reports ~90% session-token reduction when agents read a compiled wiki instead of exploring cold.
+
+- **[memory-wiki/](memory-wiki/)** — directory layout convention + SOUL.md wiring
+- **[memory-wiki/templates/solo-founder-wiki](memory-wiki/templates/solo-founder-wiki/)** — indie hacker / solo SaaS
+- **[memory-wiki/templates/engineer-wiki](memory-wiki/templates/engineer-wiki/)** — senior backend on a platform team
+- **[memory-wiki/bootstrap.sh](memory-wiki/bootstrap.sh)** — interactive starter: picks a template, asks 3 questions, writes `~/.openclaw/memory-wiki/`
+
+Wire the wiki into any SOUL.md by telling the agent to read `memory-wiki/*.md` at session start. See `memory-wiki/README.md` for the full pattern.
 
 ---
 
