@@ -4,22 +4,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-199-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-205-blueviolet)](agents/)
 [![Works with Ollama Cloud](https://img.shields.io/badge/Ollama_Cloud-Ready-00C853?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48L3N2Zz4=)](https://ollama.com)
 
-> A curated collection of **199 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **205 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20199%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20205%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
 
 ### Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 199 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
+**[Browse all 205 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
+
+#### ⭐ Try the most-deployed templates live
+
+[**Brand Monitor**](https://crewclaw.com/agents/brand-monitor?utm_source=github&utm_medium=readme&utm_campaign=popular) · [**Competitor Watch**](https://crewclaw.com/agents/competitor-watch?utm_source=github&utm_medium=readme&utm_campaign=popular) · [**SEO Analyst**](https://crewclaw.com/agents/seo-analyst?utm_source=github&utm_medium=readme&utm_campaign=popular) · [**Content Writer**](https://crewclaw.com/agents/content-writer?utm_source=github&utm_medium=readme&utm_campaign=popular) · [**Customer Support**](https://crewclaw.com/agents/customer-support?utm_source=github&utm_medium=readme&utm_campaign=popular)
 
 </div>
 
@@ -35,7 +39,7 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (199 agents across 24 categories)
+- [Agent Templates](#agent-templates) (205 agents across 24 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
@@ -105,6 +109,12 @@ Building the future, one commit at a time.
 | [🗄️ Migration Helper](agents/development/migration-helper/) | Database migrations, schema diffs, rollbacks | When you're planning database changes and need safety nets | [View](agents/development/migration-helper/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [🧪 Test Writer](agents/development/test-writer/) | Unit test generation, coverage analysis | When test coverage is low and you need to catch up | [View](agents/development/test-writer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [🗂️ Schema Designer](agents/development/schema-designer/) | DB schema from natural language, ERD output | When you need database schemas designed from requirements | [View](agents/development/schema-designer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [🛡️ Sentinel](agents/development/typescript-reviewer/) | TypeScript / Next.js review: any-leaks, server/client boundary, Turbopack JSX bug, ORM N+1 | When you ship TypeScript and want type-safety gaps caught before PR | [View](agents/development/typescript-reviewer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [🔍 Whisper](agents/development/silent-failure-hunter/) | Swallowed errors, missing analytics events, webhooks returning 200 on failure | When funnel numbers don't match ("Started=0 but Completed=4") | [View](agents/development/silent-failure-hunter/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [🔐 Keeper](agents/development/database-reviewer/) | Prisma/Drizzle schema + migration safety, N+1 catcher, webhook idempotency | When you're about to run a migration or add queries to a hot path | [View](agents/development/database-reviewer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [🚨 Beacon](agents/development/seo-specialist/) | Blog deploy checklist, on-page SEO, GSC opportunity fact-check | When you ship blog content and want it actually indexed | [View](agents/development/seo-specialist/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [⚒️ Forge](agents/development/build-error-resolver/) | Next.js / Vercel / Turbopack build failure diagnosis | When the build is red and the error message isn't obvious | [View](agents/development/build-error-resolver/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [⚖️ Verdict](agents/development/pr-test-analyzer/) | PR merge-readiness: body vs diff fact-check, coverage gaps, regression traps | When you're reviewing a PR and want more than "CI green" | [View](agents/development/pr-test-analyzer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 
 > **Want a Software Engineer agent running in 60 seconds?** [Deploy with CrewClaw →](https://crewclaw.com/create-agent?role=software-engineer)
 
@@ -467,6 +477,23 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
 
 **[Browse all skills →](./skills/)**
+
+---
+
+## Subagents
+
+Focused, delegable agents for [Claude Code](https://claude.com/claude-code) — spawned via the `Agent` tool to do specialist work in their own sub-session and return a single summary.
+
+### [Claude](./subagents/claude/) — Claude Code subagents
+
+- **[typescript-reviewer](./subagents/claude/typescript-reviewer/)** — TS/React/Next.js review: `any`-leaks, server/client boundary, Turbopack JSX bug, ORM N+1
+- **[silent-failure-hunter](./subagents/claude/silent-failure-hunter/)** — Swallowed errors, missing analytics events, 200-on-error webhooks, telemetry gaps
+- **[database-reviewer](./subagents/claude/database-reviewer/)** — Prisma/Drizzle schema + migration review, destructive-change blocker, N+1 catcher
+- **[seo-specialist](./subagents/claude/seo-specialist/)** — Blog deploy checklist + page-level SEO, so posts don't go unindexed
+- **[build-error-resolver](./subagents/claude/build-error-resolver/)** — Next.js / Vercel / Turbopack build failure diagnosis
+- **[pr-test-analyzer](./subagents/claude/pr-test-analyzer/)** — Merge-readiness audit: PR body vs diff truth-check, coverage gaps, regression traps
+
+**[Browse all subagents →](./subagents/claude/)**
 
 ---
 
